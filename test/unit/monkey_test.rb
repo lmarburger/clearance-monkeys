@@ -1,8 +1,7 @@
 require 'test_helper'
 
 class MonkeyTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  context 'A monkey' do
+    should_belong_to :user
   end
 end
